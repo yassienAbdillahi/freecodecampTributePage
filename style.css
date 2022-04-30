@@ -1,1 +1,35 @@
-
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat (4, 14%);
+  grid-template-rows: repeat(7, 14%);
+  grid-template-areas: 
+    "header header header header"
+    "navbar navbar navbar navbar"
+    "which which which which"
+    "bio bio bio bio"
+    "style style style style"
+    "honours honours honours honours"
+    "footer footer footer footer";
+}
+.item1 {
+  grid-area: header;
+}
+.item2 {
+  grid-area: navbar;
+}
+.item3 {
+  grid-area: which;
+}
+.item4 {
+  grid-area: bio;
+}
+.item5 {
+  grid-area: style;
+}
+.item6 {
+  grid-area: honours;
+}
+.item7 {
+  grid-area: footer;
+}
