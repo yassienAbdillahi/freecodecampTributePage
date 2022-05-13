@@ -35,3 +35,15 @@
   position: absolute;
   top: 1300px;
 }
+img {
+ /*
+  /these next two lines fulfills user story 8
+ */ 
+ width: 100%; 
+ height: auto; 
+   /*
+  /these next two lines fulfills user story 9
+ */ 
+ display: block;
+ margin: auto; 
+}
