@@ -31,4 +31,7 @@
 .item6 {
   grid-area: honours;
 }
-
+.footer{
+  position: absolute;
+  top: 100%;
+}
