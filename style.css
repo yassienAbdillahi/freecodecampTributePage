@@ -3,6 +3,7 @@
   display: grid;
   grid-template-columns: 84%;
   grid-template-rows: repeat(7, 14%);
+  justify-items: start;
   grid-template-areas: 
     "header"
     "navbar"
