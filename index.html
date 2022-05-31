@@ -37,26 +37,23 @@ Plan:
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
   <body>
-  <div class="">
-    <header>
+  <div class="center">
+    <header class="row justify-between">
       <h1 id="title">Ronaldo</h1><!-- this line fulfills user story 2-->
       <nav>
-        <ul>
-          <li><a href=#whichOne>Which Ronaldo?</a></li>
-          <li><a href=#bio>Bio</a></li>
-          <li><a href=#style>Style</a></li>
-          <li><a href=#honours>Honours</a></li>
-        </ul>
+          <a href=#whichOne>| Which Ronaldo? |</a>
+          <a href=#bio> Bio |</a>
+          <a href=#style>Style |</a>
+          <a href=#honours>Honours |</a>
       </nav>
     </header>
-    <main>
-    
+    <main class="stack-big">
     <section id="iconic image">
       <h2>No not <i>that</i> one</h2> 
         <h3 id="whichOne?">CR7 vs R9</h3>
           <p>These days when the name Ronaldo is mentioned most people, <em>especially young people</em>, immediately think of <i>Cristiano</i>, the Portuguese superstar who has been at the center of world football for the last <b>18 years</b>. But before there was ever a <abbr title="Cristiano Ronaldo 7">CR7</abbr>, <abbr title="Ronaldo 9">R9</abbr>, also known as O Fenômeno, was ripping defences to shreds with his unique combination of pace, power, balance, grace and, above all, technique.</p>
-          <figure id="img-div"><!-- this line fulfills user story 3-->
-            <img id="image" target="_blank" src="https://images.beinsports.com/XAVxeaIEt93TovtWgARCMW1h_pA=/full-fit-in/1000x0/3230806-R9GOAL.jpg" alt=""><!-- this line fulfills user story 4-->
+          <figure id="img-div" class="width-sm"><!-- this line fulfills user story 3-->
+            <img class="responsive-image center" id="image" target="_blank" src="https://images.beinsports.com/XAVxeaIEt93TovtWgARCMW1h_pA=/full-fit-in/1000x0/3230806-R9GOAL.jpg" alt=""><!-- this line fulfills user story 4-->
         <br>
             <figcaption id="img-caption">Ronaldo wheeling away in celebration after scoring the opening goal in the 2002 World Cup Final against Germany. In the background are the disappointed German duo of Oliver Kahn and Carsten Ramelow.
             </figcaption><!-- this line fulfills user story 5-->
@@ -72,9 +69,11 @@ Plan:
         <h2 id="style">How did he play?</h2>
           <p>Lightning fast and ridiculously strong, Ronaldo was blessed with the physical attributes to compete at the highest level of the game. What made him special and once in a generation though was the fact that he was equally skilled and gifted in the technical department. His touch, vision, passing, finishing and legendary dribbling meant that he posessed the elite-level abilities of several different attacking positions; number 10, winger <b>AND</b> striker.<br><br>The following excellent YouTube video showcases some of his most breathtaking displays:
           </p>
-        <iframe width="420" height="315"
+        <div class="row justify-center">
+          <iframe width="350rem" height="350rem"
 src="https://www.youtube.com/embed/S84vy_Zz2O0">
-        </iframe>
+          </iframe>
+        </div>
       </section>
       <section id="honours">
         <article>
@@ -100,7 +99,6 @@ FIFA Confederations Cup (1997), Summer Olympic Games bronze medal(1996)</li>
         </article>
       </section>
     </main>
-   
   </div>
 <script src="script.js"></script>
 </body>
