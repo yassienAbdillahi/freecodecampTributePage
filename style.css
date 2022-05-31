@@ -1,37 +1,3 @@
-.container {
-  width: 100%;
-  display: grid;
-  grid-template-columns: 84%;
-  grid-template-rows: repeat(6, 14%);
-  justify-items: start;
-  align-items: start;
-  grid-template-areas: 
-    "header"
-    "navbar"
-    "which"
-    "bio"
-    "style"
-    "honours";
-}
-.item1 {
-  grid-area: header;
-}
-.item2 {
-  grid-area: navbar;
-}
-.item3 {
-  grid-area: which;
-}
-.item4 {
-  grid-area: bio;
-}
-.item5 {
-  grid-area: style;
-}
-.item6 {
-  grid-area: honours;
-}
-
 img {
  /*
   /these next two lines fulfills user story 8
